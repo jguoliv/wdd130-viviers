@@ -10,6 +10,12 @@ body {
 
 h1 {
     font-family: "Eagle lake";
+    color: #CC4716;
+}
+
+h2 {
+    font-family: "Electrolize";
+    color: #0D4157;
 }
 
 #logo {
