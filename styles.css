@@ -8,6 +8,10 @@ body {
     width: 800px;
 }
 
+h1 {
+    font-family: "Eagle lake";
+}
+
 #logo {
     grid-row: 2/4;
     grid-column: 1;
