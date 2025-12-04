@@ -68,6 +68,10 @@ nav a:hover {
     margin: 5px
 }
 
-#highlight-video {
+#intro-text {
+    margin-bottom: 40px;
+}
+
+footer {
     margin-top: 40px;
 }
