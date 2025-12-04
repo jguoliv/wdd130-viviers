@@ -42,3 +42,32 @@ header {
     display: grid;
     grid-template-rows: 225px 75px 75px auto;
 }
+
+nav {
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 50px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    justify-self: center;
+    background-color: #0D4157;
+    border-radius: 10px;
+}
+
+nav a {
+    color: #F9F9F1;
+    text-decoration: none;
+    padding: 10px;
+    align-self: center;
+}
+
+nav a:hover {
+    background-color: #CC4716;
+    color: #F9F9F1;
+    border-radius: 7px;
+    margin: 5px
+}
+
+#highlight-video {
+    margin-top: 40px;
+}
