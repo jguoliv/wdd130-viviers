@@ -23,14 +23,140 @@
             <a href="sign_up.html">Sign Up</a>
         </nav>
 
-    </header>
+         <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f5f5f5;
+            margin: 0;
+            padding: 40px 0;
+            display: flex;
+            justify-content: center;
+        }
 
+        .signup-card {
+            width: 380px;
+            background: #fff;
+            border: 2px solid #ccc;
+            border-radius: 14px;
+            padding: 25px;
+            box-shadow: 0 0 10px #ddd;
+        }
 
+        .signup-logo {
+            width: 80px;
+            display: block;
+            margin: 0 auto 10px auto;
+        }
 
+        .signup-title {
+            text-align: center;
+            margin-bottom: 20px;
+            font-size: 26px;
+        }
 
+        .signup-form label {
+            display: block;
+            margin-bottom: 12px;
+            font-weight: bold;
+        }
 
+        .signup-form input {
+            display: block;
+            width: 100%;
+            margin-top: 4px;
+            padding: 6px;
+            border: 1px solid #aaa;
+            border-radius: 6px;
+        }
+
+        .availability-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 8px;
+            margin: 10px 0 20px 0;
+        }
+
+        .availability-grid .slot {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 12px 0;
+            border: 1px solid #555;
+            border-radius: 6px;
+            background: #f9f9f9;
+            font-size: 14px;
+            cursor: pointer;
+        }
+
+        .availability-grid .slot input[type="checkbox"] {
+            margin-bottom: 4px;
+            transform: scale(1.2);
+            cursor: pointer;
+        }
+
+        .signup-btn {
+            padding: 10px;
+            width: 100%;
+            border: none;
+            background: #1e88e5;
+            color: white;
+            font-size: 16px;
+            border-radius: 6px;
+            cursor: pointer;
+        }
+
+        .signup-btn:hover {
+            background: #1565c0;
+        }
+
+        .copyright {
+            text-align: center;
+            margin-top: 15px;
+            font-size: 12px;
+            color: #666;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="signup-card">
+        <img src="RugbyReadyLogo.png" alt="Rugby Ready Logo" class="signup-logo">
+
+        <h2 class="signup-title">Sign Up!</h2>
+
+        <form class="signup-form">
+            <label>Name:
+                <input type="text" name="name">
+            </label>
+
+            <label>Age:
+                <input type="number" name="age">
+            </label>
+
+            <label>Preferred Position:
+                <input type="text" name="position">
+            </label>
+
+            <label>Playing Experience:
+                <input type="text" name="experience">
+            </label>
+
+            <label>Availability for Practice:</label>
+            <div class="availability-grid">
+                <label class="slot"><input type="checkbox" name="avail[]"> Mon</label>
+                <label class="slot"><input type="checkbox" name="avail[]"> Tue</label>
+                <label class="slot"><input type="checkbox" name="avail[]"> Wed</label>
+                <label class="slot"><input type="checkbox" name="avail[]"> Thu</label>
+                <label class="slot"><input type="checkbox" name="avail[]"> Fri</label>
+                <label class="slot"><input type="checkbox" name="avail[]"> Sat</label>
+                <label class="slot"><input type="checkbox" name="avail[]"> Sun</label>
+            </div>
+
+            <button type="submit" class="signup-btn">Submit</button>
+        </form>
     
-
     <footer>
         <p>Copyright © 2025 Rugby Ready</p>
     </footer>
