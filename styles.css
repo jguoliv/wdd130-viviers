@@ -72,6 +72,17 @@ nav a:hover {
     margin-bottom: 40px;
 }
 
+#vidBox{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: -437.5px;
+    gap: 75px;
+}
+
+#vidBox h1{
+    float: top;
+}
+
 footer {
     margin-top: 40px;
 }
