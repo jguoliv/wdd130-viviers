@@ -75,8 +75,14 @@ nav a:hover {
 #vidBox{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin-left: -437.5px;
-    gap: 75px;
+    margin: auto;
+    width: 800px;
+    
+}
+
+#vidBox iframe{
+    padding: 10px;
+    justify-self: center;
 }
 
 #vidBox h1{
