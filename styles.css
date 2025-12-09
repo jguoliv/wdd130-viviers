@@ -77,7 +77,7 @@ nav a:hover {
     grid-template-columns: 1fr 1fr;
     margin: auto;
     width: 800px;
-    
+    column-gap: 15px;
 }
 
 #vidBox iframe{
